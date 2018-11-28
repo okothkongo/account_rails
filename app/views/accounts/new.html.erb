@@ -1,0 +1,5 @@
+<p>create new account</p>
+<%= form_for @account, url:{action: "create"} do |f| %>
+  <%= f.text_field :account_number %>
+  <%= f.text_field :amount %>
+<%end%>
